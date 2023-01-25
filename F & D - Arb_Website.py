@@ -3,7 +3,7 @@ from gevent import monkey
 
 monkey.patch_all()
 
-import time, logging, sys, linecache, random
+import time, logging, sys, linecache, random, threading
 import undetected_chromedriver.v2 as uc
 from tkinter import *
 from selenium.webdriver.common.by import By
